@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moj produkt</title>
+  <title>Lightning Keyboard | SUPERCHARGE your typing skills with the best features AutoType, InstantPress, ErgoSplit, CableRange, ArGeeBee!</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
   <div class="bg-primary text-center text-white p-5">
@@ -13,8 +14,8 @@
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col"><img src="keyboard.webp" alt="Keyboard" width="450"></div>
-      <div class="col p-3">
+      <div class="col"><img src="keyboard.webp" alt="Keyboard" class="p-5" width="550"></div>
+      <div class="col p-5">
         <h2>Why is it the best?</h2>
         <ul>
           <li>Word autocompletion while typing with AutoType</li>
@@ -27,6 +28,46 @@
       </div>
     </div>
   </div>
+
+  <div id="carousel" class="carousel slide carousel-dark">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="carousel_image1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="carousel_image2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="carousel_image_3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="carousel_image_4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="carousel_image_5.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="carousel_image_6.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
   <div class="container-fluid bg-light">
     <h2 class="text-center p-3">Pricing</h2>
     <div class="container d-flex justify-content-center">
@@ -38,8 +79,6 @@
             <li>Classic keyboard, no extra, interesting stuff</li>
             <li>Plastic keycaps</li>
             <li>2cm long cable</li>
-            <li>No RGB</li>
-            <li>No splitting</li>
             <li>2 seconds latency when pressing</li>
             <li>Useless autocomplete</li>
           </ul>
@@ -49,28 +88,160 @@
 
       <div class="card mb-3" style="width: 500px">
         <div class="card-body">
-          <h3 class="card-title text-primary">Premium</h3>
-          <h4 class="card-subtitle text-secondary">199 € <span class="badge text-bg-danger">50% OFF!</span></h4>
+          <h3 class="card-title text-primary"><i class="bi bi-star-fill"></i> Premium <i class="bi bi-star-fill"></i></h3>
+          <h5 class="text-decoration-line-through text-danger">399.99 €</h5>
+          <h4 class="card-subtitle"> 199.99 € <span class="badge text-bg-danger">50% OFF!</span></h4>
           <ul class="card-text">
             <li><span class="badge text-bg-warning">AutoType</span> automatic text completion</li>
             <li><span class="badge text-bg-warning">InstantPress</span> lightning fast key presses</li>
             <li><span class="badge text-bg-warning">ErgoSplit</span> ergonomic keyboard splitting</li>
             <li><span class="badge text-bg-warning">CableRange</span> extremely long, 10m cable</li>
             <li><span class="badge text-bg-warning">ArGeeBee</span> full RGB color spectrum</li>
+            <li>High quality plastic + metal keycaps</li>
+            <li>1 microsecond latency</li>
           </ul>
           <a class="btn btn-primary">Buy now</a>
         </div>
       </div>
     </div>
   </div>
-  <h2 class="block text-center p-3">Contact Form</h2>
-  <form>
-    <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
+
+  <h2 class="p-3 text-center">Pick the right keyboard for you.</h2>
+  <table class="table text-center">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col"><h4>Basic</h4></th>
+        <th scope="col" class="text-primary"><h4>Premium</i></h4></th>
+      </tr>
+    </thead>
+    <tr>
+      <td>Keyboard</td>
+      <td><i class="bi bi-check2 text-primary"></i></td>
+      <td><i class="bi bi-check2 text-primary"></i></td>
+    </tr>
+    <tr>
+      <td>Charger included</td>
+      <td><i class="bi bi-x-lg text-secondary"></i></td>
+      <td><i class="bi bi-check2 text-primary"></i></td>
+    </tr>
+    <tr>
+      <td><span class="badge text-bg-warning">AutoType</span></td>
+      <td><i class="bi bi-x-lg text-secondary"></i></td>
+      <td><i class="bi bi-check2 text-primary"></i></td>
+    </tr>
+    <tr>
+      <td><span class="badge text-bg-warning">InstantPress</span></td>
+      <td><i class="bi bi-x-lg text-secondary"></i></td>
+      <td><i class="bi bi-check2 text-primary"></i></td>
+    </tr>
+    <tr>
+      <td><span class="badge text-bg-warning">ErgoSplit</span></td>
+      <td><i class="bi bi-x-lg text-secondary"></i></td>
+      <td><i class="bi bi-check2 text-primary"></i></td>
+    </tr>
+    <tr>
+      <td><span class="badge text-bg-warning">CableRange</span></td>
+      <td><i class="bi bi-x-lg text-secondary"></i></td>
+      <td><i class="bi bi-check2 text-primary"></i></td>
+    </tr>
+    <tr>
+      <td><span class="badge text-bg-warning">ArGeeBee</span></td>
+      <td><i class="bi bi-x-lg text-secondary"></i></td>
+      <td><i class="bi bi-check2 text-primary"></i></td>
+    </tr>
+    <tr>
+      <td>Keycaps</td>
+      <td>Plastic</td>
+      <td><i class="bi bi-star-fill text-primary"></i> High-quality, plastic + metal, sweat resistant texture</td>
+    </tr>
+    <tr>
+      <td>Typing latency</td>
+      <td>2 seconds</td>
+      <td><i class="bi bi-star-fill text-primary"></i> Less than 1 microsecond</td>
+    </tr>
+  </table>
+
+  <div class="container-fluid text-center p-3">
+    <h2 class="p-3">Frequently Asked Questions (FAQ)</h2>
+
+    <div class="accordion" id="accordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Which keyboard is better for me? Basic or Premium?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+          <div class="accordion-body">
+            <strong>Premium is definitely better for all people</strong>, because Basic is only there to scam dumb people that think it is worth the buck. Obviously, Premium is more expensive and comes with AutoType, InstantPress, ErgoSplit, CableRange, and ArGeeBee. It also has high quality plastic + metal keycaps and an extremely low typing latency. There is no reason to buy basic, since it has nearly no features that premium has.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            How long will the keyboard take to deliver?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+          <div class="accordion-body">
+            If you buy the Premium keyboard, in about <strong>2-14 days if you're in the EU</strong>. If you buy the Basic keyboard, it probably won't even arrive. <strong><em>Note: The time it takes to ship a keyboard depends on the laziness of the delivery driver. If they are lazy, you'll have to be patient. DISCLAIMER: We do not care or take responsibility for the delivery of the keyboard. We hired random people to do it for us so be happy you do not have to pick it up at one of our warehouises.</em></strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Is the keyboard a scam?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
+          <div class="accordion-body">
+            <h1>No.</h1> <em>Why is this in the FAQ?! Nobody should think that this is a scam!</em>
+          </div>
+        </div>
+      </div>
     </div>
-  </form>
-  <footer class="container-fluid bg-secondary text-center text-white p-3">&copy; 2025 ScamKeyboards</footer>
+  </div>
+
+  <footer class="container-fluid bg-secondary text-center text-white p-3">
+    <h2 class="text-center p-3">Have any comments? Contact us below.</h2>
+    <form>
+      <div class="container">
+        <div class="row">
+          <div class="col mb-2">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="nameInput" placeholder="John Doe">
+              <label for="nameInput">First Name</label>
+            </div>
+          </div>
+
+          <div class="col mb-2">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+              <label for="emailInput">Email address</label>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col mb-2">
+            <div class="form-floating">
+              <textarea class="form-control" id="comment" placeholder="Hello!" style="height: 125px;"></textarea>
+              <label for="comment">Comment</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="submit" class="btn btn-primary" value="Send">
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="mt-3">&copy; 2025 ScamKeyboards</div>
+  </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
